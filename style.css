@@ -1,0 +1,35 @@
+* {
+  width: 98%;
+  margin: 10px auto;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: large;
+}
+
+h2 {
+  font-family: "Mooli", sans-serif;
+  font-size: small;
+  color: grey;
+}
+
+.topHeader{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
