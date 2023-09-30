@@ -35,6 +35,9 @@ a {
   justify-content: start;
   justify-items: center;
 }
+.smalltextstart{
+  text-align: end;
+}
 
 /* Responsive Media query is from here */
 
@@ -44,6 +47,14 @@ a {
     grid-template-columns: repeat(1, 1fr);
     justify-content: space-between;
     align-items: start;
+  }
+
+  .wrapsmallscreentreverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .smalltextstart{
+    text-align: start;
   }
 
   .projectTitle {
